@@ -10,7 +10,7 @@ import { StudentModule } from './student/student.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mongodb',
-      url: 'mongodb://localhost/school',
+      url: 'mongodb+srv://dcsprit:ItYwlknxVupjiHbf@cluster0.rdssz3x.mongodb.net/School?retryWrites=true&w=majority',
       synchronize: true,
       useUnifiedTopology: true,
       entities: [
